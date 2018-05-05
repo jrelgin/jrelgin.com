@@ -12,17 +12,24 @@
       <p class="welcome"> 👋 hello</p>
 
       <form name="contact" method="POST" netlify>
+        <p class="hidden">
+         <label class="sr-only">Don’t fill this out if you're human: </label>
+         <input name="bot-field">
+       </p>
         <p>
-          <label>Your Name: <input type="text" name="name"></label>
+          <label class="sr-only">Your Name: </label>
+          <input type="text" class="form-field" name="name">
         </p>
         <p>
-          <label>Your Email: <input type="email" name="email"></label>
+          <label class="sr-only">Your Email: </label>
+          <input type="email" class="form-field" name="email">
         </p>
         <p>
-          <label>Message: <textarea name="message"></textarea></label>
+          <label class="sr-only">Message: </label>
+          <textarea name="message" class="form-field"></textarea>
         </p>
         <p>
-          <button type="submit">Send</button>
+          <button class="btn-submit" type="submit">Send</button>
         </p>
       </form>
     </main>

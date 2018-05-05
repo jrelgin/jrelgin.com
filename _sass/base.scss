@@ -1,7 +1,23 @@
-body {
-  font-family: helvetica, arial, sans-serif;
+@import 'global/variables';
+@import 'global/type';
+@import 'components/forms';
+@import 'components/buttons';
+
+html,
+body,
+.page-content {
+  height: 100%;
+  min-height: 100vh;
 }
 
-.welcome {
-  font-size: 7rem;
+.page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.hidden {
+  display: none;
 }
