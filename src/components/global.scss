@@ -618,3 +618,26 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+body,html {
+  height: 100%;
+}
+body {
+  text-align: center;
+}
+.astro {
+  width: 100%;
+}
+picture {
+  margin: 2rem auto;
+  max-width:100%;
+  
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+}
