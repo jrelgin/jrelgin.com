@@ -1,0 +1,6 @@
+{
+  "diffEditor.renderIndicators": false,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  }  
+}
