@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -618,12 +620,22 @@ pre tt:after {
     font-size: 100%;
   }
 }
+* {
+  box-sizing: border-box;
+}
 
 body,html {
   height: 100%;
 }
 body {
   text-align: center;
+  font-family: 'lora', serif;
+  border: 6px solid rgba(0, 0, 0, .8);
+  padding: 24px;
+}
+
+h1 {
+  font-family: 'lora', serif;
 }
 .astro {
   width: 100%;
@@ -640,4 +652,11 @@ picture {
   text-align:center;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    border: 16px solid rgba(0, 0, 0, .8);
+    padding: 80px;
+  }
 }

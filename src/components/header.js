@@ -4,8 +4,9 @@ import React from 'react'
 const Header = ({ siteTitle }) => (
   <div>
     <h1>
-      Hello
+      Hello, I’m Jason
     </h1>
+    <p>coder, designer, experience engineer</p>
   </div>
 )
 
