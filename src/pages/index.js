@@ -11,7 +11,7 @@ const IndexPage = () => (
       <div className="astro" style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <img src={itsme} alt="jason"/>
       </div>
-      <p>I’m Jason Elgin <a href="https://twitter.com/jrelgin">@jrelgin</a></p>
+      <p><a href="https://twitter.com/jrelgin">@jrelgin</a></p>
     </div>
    
   </Layout>
