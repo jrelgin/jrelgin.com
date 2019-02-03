@@ -25,10 +25,9 @@ const typography = new Typography({
   ],  
   headerFontFamily: ["Lora", "serif"],
   bodyFontFamily: ["Lora", "serif"],
-  overrideStyles: ({ adjustFontSizeTo, rhythm }) => ({
-    'h1,h2,h3,a,p': {
-      marginBottom: rhythm(1/2),
-    },
+  blockMarginBottom: .7,
+  overrideStyles: ({ adjustFontSizeTo }) => ({
+
     a: {
       color: '#FD5825',
       textDecoration: 'none',

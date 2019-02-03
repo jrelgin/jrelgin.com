@@ -1,6 +1,7 @@
 $orange: #FD5825;
 $orange-darken: #B0340D;
 $parchment: #fafafa;
+$mine-shaft: #222222;
 
 * {
   box-sizing: border-box;
@@ -12,7 +13,7 @@ body,html {
 body {
   background: $parchment;
   text-align: center;
-  border: 6px solid rgba(0, 0, 0, .8);
+  border: 6px solid #222;
   padding: 24px;
 }
 
