@@ -1,4 +1,5 @@
 ---
+
 slug: "/starting-with-gatsby"
 date: "2019-02-03"
 title: "Starting with GatsbyJS"
@@ -52,4 +53,3 @@ Oh, how I wish I could believe or understand that! There's only one reasonable c
 Yes, except the Dave Matthews Band doesn't rock. We're rescuing ya. Look, everyone wants to be like Germany, but do we really have the pure strength of 'will'? Tell her she looks thin.
 
 Bender, hurry! This fuel's expensive! Also, we're dying! You, a bobsleder!? That I'd like to see! You lived before you met me?! Now that the, uh, garbage ball is in space, Doctor, perhaps you can help me with my sexual inhibitions?
-

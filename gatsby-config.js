@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/jason-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/jason-icon.png`,
       },
     },
     `gatsby-plugin-sass`,
@@ -47,7 +47,25 @@ module.exports = {
         username: `jrelgin`
       }
     },
-    `gatsby-transformer-remark`,    
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-plugin-fullstory`,
+      options: {
+        fs_org: `J713W`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-28544460-1",
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+      },
+    },    
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
