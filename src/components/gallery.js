@@ -25,7 +25,7 @@ const Gallery = () => (
     render={({allInstaNode}) => (
       <>
         <section className="gallery">
-          <h3>Photos</h3>
+          <h3>On Instagram</h3>
           {allInstaNode.edges.map(edge => (
             <li>
               <img src={edge.node.localFile.childImageSharp.fixed.src} alt=""/>
