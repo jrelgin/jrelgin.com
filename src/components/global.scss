@@ -7,14 +7,17 @@ $mine-shaft: #222222;
   box-sizing: border-box;
 }
 
-body,html {
-  height: 100%;
+body,html,
+#___gatsby,
+#___gatsby > div, //super gross but required for reach router
+ {
+  min-height: 100%;
 }
 body {
   background: $parchment;
   text-align: center;
   border: 6px solid #222;
-  padding: 24px;
+  min-height: 100vh;
 }
 
 h1 {

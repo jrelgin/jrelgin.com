@@ -3,6 +3,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import itsme from '../images/itsme.jpg'
+import Gallery from '../components/gallery'
 
 const IndexPage = () => (
   <Layout>
@@ -12,8 +13,9 @@ const IndexPage = () => (
         <img src={itsme} alt="jason"/>
       </div>
       <p><a href="https://twitter.com/jrelgin">@jrelgin</a></p>
+
     </div>
-   
+    <Gallery></Gallery>
   </Layout>
 )
 
