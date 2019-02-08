@@ -6,7 +6,7 @@ import Gallery from '../components/gallery'
 
 const PhotoPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Photos" />
     <Gallery></Gallery>
   </Layout>
 )
