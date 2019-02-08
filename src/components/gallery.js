@@ -2,7 +2,7 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import './gallery.scss'
 
-const SCRAP_INSTA_QUERY = graphql`
+const SCRAPE_INSTA_QUERY = graphql`
   query instaQuery {
     allInstaNode {
       edges {
@@ -23,7 +23,7 @@ const SCRAP_INSTA_QUERY = graphql`
 `
 const Gallery = () => (
   <StaticQuery
-    query={SCRAP_INSTA_QUERY}
+    query={SCRAPE_INSTA_QUERY}
     render={({allInstaNode}) => (
       <>
         <section className="gallery">
