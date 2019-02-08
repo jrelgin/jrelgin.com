@@ -1,0 +1,51 @@
+@import 'global';
+
+.gallery-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 8px;
+  
+  li {
+    margin: 0;
+    position: relative;
+    display: block;
+  }
+
+  img {
+    display: block;
+    position: relative;
+  }
+  .caption {
+    background: rgba(0, 0, 0, 0.8);
+    color: $parchment;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 16px;
+    opacity: 0;
+    transition: opacity 400ms ease-in-out;
+
+    &:hover,
+    &:active {
+      opacity: 1;
+    }
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .gallery-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .gallery-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
