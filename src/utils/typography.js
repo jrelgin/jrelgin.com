@@ -40,6 +40,16 @@ const typography = new Typography({
       ...adjustFontSizeTo('19px'),
       fontStyle: 'italic',
     },
+    ul: {
+      margin: '0'
+    },
+    li: {
+      margin: '0',
+      padding: '0'
+    },
+    img: {
+      margin: '0'
+    },
   })
 })
 

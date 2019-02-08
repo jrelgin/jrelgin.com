@@ -1,5 +1,6 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
+import './gallery.scss'
 
 const SCRAP_INSTA_QUERY = graphql`
   query instaQuery {
@@ -26,12 +27,12 @@ const Gallery = () => (
     render={({allInstaNode}) => (
       <>
         <section className="gallery">
-          <h3>On Instagram</h3>
-          <ul>
+          <h1>On Instagram</h1>
+          <ul className="gallery-list">
             {allInstaNode.edges.map(edge => (
               <li key={edge.node.id}>
-                <img src={edge.node.localFile.childImageSharp.fixed.src} alt=""/>
-                <span className="caption">{edge.node.caption}</span>
+                <img className="insta-pic" src={edge.node.localFile.childImageSharp.fixed.src} alt=""/>
+                <div className="caption"><span>{edge.node.caption}</span></div>                
               </li>
             ))}
           </ul>
